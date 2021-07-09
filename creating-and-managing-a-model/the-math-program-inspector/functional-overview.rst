@@ -681,28 +681,28 @@ you can tune the underlying algorithms through the following options.
    solver. If this option is switched off then AIMMS will use its own
    algorithm based on Chinneck (:cite:`bib:Ch91`), as described above.
 
-   .. rubric:: Scaling
+.. rubric:: Scaling
 
-   A coefficient matrix is considered badly scaled if its nonzero
-   coefficients are of different magnitudes. Scaling is an operation in
-   which the variables and constraints in the model are multiplied by
-   positive numbers resulting in a matrix containing nonzero
-   coefficients of similar magnitude. Scaling is used prior to solving a
-   model for several reasons, the most important being (1) to improve
-   the numerical behavior of the solver and (2) to reduce the number of
-   iterations required to solve the model.
+A coefficient matrix is considered badly scaled if its nonzero
+coefficients are of different magnitudes. Scaling is an operation in
+which the variables and constraints in the model are multiplied by
+positive numbers resulting in a matrix containing nonzero
+coefficients of similar magnitude. Scaling is used prior to solving a
+model for several reasons, the most important being (1) to improve
+the numerical behavior of the solver and (2) to reduce the number of
+iterations required to solve the model.
 
-   .. rubric:: Scale model
+.. rubric:: Scale model
 
-   Solvers like CPLEX and GUROBI use their own algorithms to scale a
-   model but in some cases it might be beneficial to use a different
-   scaling algorithm that uses symbolic information. The scaling tool in
-   the math program inspector can be used to find scaling factors for
-   all symbolic variables and constraints in the model by selecting the
-   **Scale Model** command from the **Actions** menu. The scaling
-   factors will be displayed in the Scaling Factors tab. Once the
-   scaling tool is finished you can select the **Resolve** command from
-   the **Actions** menu to resolve the model which then automatically
-   uses these scaling factors. However, to use the scaling factors in
-   your AIMMS model you have to manually update the **Unit** attribute
-   of the corresponding variables and constraints.
+Solvers like CPLEX and GUROBI use their own algorithms to scale a
+model but in some cases it might be beneficial to use a different
+scaling algorithm that uses symbolic information. The scaling tool in
+the math program inspector can be used to find scaling factors for
+all symbolic variables and constraints in the model by selecting the
+**Scale Model** command from the **Actions** menu. The scaling
+factors will be displayed in the Scaling Factors tab. Once the
+scaling tool is finished you can select the **Resolve** command from
+the **Actions** menu to resolve the model which then automatically
+uses these scaling factors. However, to use the scaling factors in
+your AIMMS model you have to manually update the **Unit** attribute
+of the corresponding variables and constraints.

@@ -5,8 +5,6 @@ Please find the PDF version of the AIMMS User's Guide `here <https://documentati
 
 .. toctree::
 
-   about-aimms/index
-   preface/index
    introduction-to-aimms/index
    creating-and-managing-a-model/index
    creating-an-end-user-interface/index
