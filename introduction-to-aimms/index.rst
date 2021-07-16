@@ -10,5 +10,4 @@ AIMMS Basics
    modeling-tools
    dockable-windows
    additional-files-related-to-an-aimms-project
-   aimms-licensing
    collaborative-project-development/index
