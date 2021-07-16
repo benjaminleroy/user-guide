@@ -55,7 +55,7 @@ Creating Non-Persistent User Colors
 
 During the start up of an AIMMS project, the set :any:`AllColors` is filled
 initially with the collection of persistent user colors defined through
-the **Tools-User Colors** dialog box (see also :ref:`sec:prop.color`).
+the **Tools-User Colors** dialog box.
 Through the functions listed below, you can extend the set :any:`AllColors`
 programmatically with a collection of non-persistent colors, whose
 lifespan is limited to a single session of a project.
