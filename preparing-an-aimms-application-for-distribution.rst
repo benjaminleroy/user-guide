@@ -32,7 +32,7 @@ detail in :ref:`sec:security.encrypt`.
 
 By default AIMMS will select all files in the project directory to be
 included in the .aimmspack file while ignoring all files in the
-``Backup`` and :any:`Log` directories. All files associated with referenced
+``Backup`` and ``Log`` directories. All files associated with referenced
 library projects will also be included. The project (``.aimms``) and all
 source files (e.g. ``.ams`` and ``.xml`` files) for the main project and
 all of the library projects involved are mandatory while the settings
