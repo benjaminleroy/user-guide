@@ -73,12 +73,16 @@ first button is pressed, and 2 when the second button is pressed.
 Page Functions
 ~~~~~~~~~~~~~~
 
+.. warning::
+
+  The AIMMS WinUI is deprecated, and thus Page functions as well. Please refer to :doc:`deprecation-table`. 
+  You may use the :doc:`webui/index` instead, and the :doc:`webui/library`.
+
 .. rubric:: Model page control
    :name: page-function
 
 The possibility of opening pages from within a model provides
-flexibility compared to page tree-based navigation (see
-:ref:`sec:pagetool.pageman.navigate`). Depending on a particular
+flexibility compared to page tree-based navigation. Depending on a particular
 condition you can decide whether or not to open a particular page, or
 you can open different pages depending on the current status of your
 model.
@@ -135,10 +139,14 @@ The following functions for manipulating pages are available in AIMMS.
 Print Functions
 ~~~~~~~~~~~~~~~
 
+.. warning::
+
+  The AIMMS WinUI is deprecated, please refer to :doc:`deprecation-table`. 
+  You may use the :doc:`webui/index` instead.
+
 .. rubric:: Printing facilities
 
-AIMMS provides a printing capability in the form of *print pages*, see
-:ref:`chap:print`.
+AIMMS provides a printing capability in the form of *print pages*.
 
 .. rubric:: Print functions
 
@@ -247,8 +255,7 @@ AIMMS supports two types of dialog boxes for user communication:
 -  data entry dialog boxes.
 
 In addition to these standard dialog boxes available in AIMMS, it is
-also possible to create customized dialog boxes using dialog pages (see
-:ref:`sec:prop.dialog`), and open these using the :any:`PageOpen` function
+also possible to create customized dialog boxes using dialog pages, and open these using the :any:`PageOpen` function
 discussed in :ref:`sec:gui.functions.page`.
 
 .. rubric:: Information dialog boxes

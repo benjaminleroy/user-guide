@@ -1,10 +1,14 @@
-Introduction to AIMMS
+AIMMS Basics
 =====================
 
 
 
 .. toctree::
 
-   aimms-and-analytic-decision-support/index
-   getting-started/index
+   comparison-with-other-ads-tools
+   creating-a-new-project
+   modeling-tools
+   dockable-windows
+   additional-files-related-to-an-aimms-project
+   aimms-licensing
    collaborative-project-development/index

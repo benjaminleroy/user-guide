@@ -150,7 +150,7 @@ execution of your model.
 With the *\--end-user* option you can force AIMMS to start up a project
 in end-user mode using a developer license, allowing you to preview your
 application as if you were an end-user without the need to explicitly
-export an end-user project (see alse :ref:`sec:deploy.aimmspack`).
+export an end-user project.
 Please note that the option to emulate end-user model using an AIMMS
 developer license will not work, unless it has been enabled in your
 AIMMS developer license.
@@ -195,8 +195,7 @@ When you want to run an AIMMS project unattended, you can call AIMMS
 with the *\--run-only* option. This option requires the name of a
 procedure in the model, which will be executed after the project is
 opened. When you use the *\--run-only* option, all other initial project
-settings, such as the initial case, procedure and page settings (see
-:ref:`sec:deploy.end-user`), will be ignored. AIMMS will, however, call
+settings, such as the initial case, procedure and page settings, will be ignored. AIMMS will, however, call
 the procedures ``MainInitialization``, ``PostMainInitialization``,
 ``PreMainTermination``, ``MainTermination``, and all library
 initialization and termination procedures as usual. Once the procedure

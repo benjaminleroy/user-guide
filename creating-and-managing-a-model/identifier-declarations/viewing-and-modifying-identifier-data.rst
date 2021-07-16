@@ -69,7 +69,7 @@ AIMMS will display the dialog box illustrated in
 In this dialog box, you can select whether you want to view the data in
 a sparse list object, a composite table object, a pivot table object or
 in the form of a (rectangular) table. Additionally, you can indicate
-that you want the view to be *sliced* (see also :ref:`sec:page.slice`),
+that you want the view to be *sliced*,
 by selecting fixed elements for one or more dimensions. For every sliced
 dimension, AIMMS will automatically add a floating index to the data
 page, allowing you to view the data for every element in the sliced
@@ -81,7 +81,7 @@ If you want to always use the same data page settings for a particular
 identifier, you can save the choices you made in
 :numref:`fig:decl.data-page-select`. As a result, AIMMS will save the
 data page as an ordinary end-user page in the special **All Data Pages**
-section of the **Page Manager** (see also :ref:`sec:pagetool.pageman`).
+section of the **Page Manager**.
 If you so desire, you can further edit this page, and, for instance, add
 additional related identifiers to it which will subsequently become
 visible when you view the identifier data in the **Model Explorer**.

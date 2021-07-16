@@ -1,3 +1,0 @@
-AIMMS licensing
-===============
-

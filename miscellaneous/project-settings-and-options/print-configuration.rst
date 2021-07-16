@@ -7,7 +7,7 @@ Print configuration
 
 AIMMS offers two distinct facilities to create printed reports
 associated with your model, namely printouts of graphical end-user pages
-and print pages (see :ref:`chap:print`), and printouts of text files
+and print pages, and printouts of text files
 such as a text representation of a part of the model tree or the
 listing, log and ``PUT`` files. This section explains how you can
 configure the printing properties for both types of reports.
@@ -23,11 +23,10 @@ configure the printing properties for both types of reports.
 End-user pages and print pages are printed according to the settings
 that you have selected for these pages. These settings include:
 
--  the selection of the paper type on which pages are printed (see
-   :ref:`sec:print.pages`), and
+-  the selection of the paper type on which pages are printed, and
 
 -  the selection of object fonts and colors through the AIMMS font and
-   color selection dialog boxes (see :ref:`sec:prop.property`).
+   color selection dialog boxes.
 
 These settings must be fixed by you as the application developer, and
 cannot be changed by an end-user of your application. An end-user can,
