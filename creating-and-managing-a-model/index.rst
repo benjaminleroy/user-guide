@@ -4,6 +4,7 @@ Creating and Managing a Model
 
 
 .. toctree::
+   :maxdepth: 2
 
    the-model-explorer/index
    identifier-declarations/index
