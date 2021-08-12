@@ -485,17 +485,11 @@ investigate memory issues during execution of your model.
 
 The following execution information functions are available in AIMMS.
 
--  :any:`IdentifierMemory`\ (*identifier*\ [,\ *include-permutations*])
+-  :any:`IdentifierMemory`\ 
 
--  | :any:`MemoryStatistics`\ (*filename*\ [,\ *append-mode*][,\ *marker-text*][,\ *show-leaks-only*
-     ]
-   | .8cm[,\ *show-totals*][,\ *show-since-last-dump*][,\ *show-mem-peak*][,\ *show-small-
-     .8cm block-usage*])
+-  | :any:`MemoryStatistics`\ 
 
--  | :any:`IdentifierMemoryStatistics`\ (*identifier-set*,\ *filename*\ [,\ *append-mode*]
-   | .8cm[,\ *marker-text*][,\ *show-leaks-only*
-     ][,\ *show-totals*][,\ *show-since-last-dump*]
-   | .8cm[,\ *show-mem-peak*][,\ *show-small-block-usage*][,\ *aggregate*])
+-  | :any:`IdentifierMemoryStatistics`\ 
 
 .. rubric:: Profiler control
 
