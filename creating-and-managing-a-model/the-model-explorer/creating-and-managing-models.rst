@@ -85,12 +85,6 @@ section from that file during every subsequent session.
    Attribute form of a section node
 
 
-.. rubric:: Protecting source files
-
-:ref:`sec:security.encrypt` explains how you can further protect such a
-``.ams`` file by encrypting its contents, allowing you to ship it to
-your customers as an end-user only module.
-
 .. rubric:: Exporting a book section
 
 Alternatively, when you are in the **Model Explorer** on the book
