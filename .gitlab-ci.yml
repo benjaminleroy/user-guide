@@ -40,7 +40,7 @@ compile_PDF:
     - sudo apt-get install texlive-latex-extra -y
     - sudo apt-get install latexmk -y
     - python3.8 -msphinx -M latex . _build 
-    - python3.8 -msphinx -M latexpdf . _build -y
+    - python3.8 -msphinx -M latexpdf . _build
     - rsync -rt _build/latex/AIMMS_user.pdf support@data.aimms.com:/home/aimms/www/documentation.aimms.com/user-guide
     - rsync -rt _build/latex/AIMMS_user.pdf support@data.aimms.com:/home/aimms/www/data/download/manuals
   allow_failure: true
