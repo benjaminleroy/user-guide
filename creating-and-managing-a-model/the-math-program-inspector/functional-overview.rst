@@ -514,10 +514,8 @@ as follows.
 
 .. math::
 
-   \begin{align}
    x_k & \leq \underline{x_k} + \min_{ i | a_{ik} > 0} \frac{b_i - \underline{b_i}}{a_{ik}} \\
       x_k & \geq \overline{x_k}  + \max_{ i | a_{ik} < 0} \frac{b_i - \underline{b_i}}{a_{ik}}
-   \end{align}
 
 .. rubric:: :math:`\ldots` and :math:`\geq` constraints
 
@@ -527,10 +525,10 @@ as follows.
 
 .. math::
 
-   \begin{align}
+   
    x_k & \leq \underline{x_k} + \min_{ i | a_{ik} < 0} \frac{b_i - \overline{b_i}}{a_{ik}} \\
       x_k & \geq \overline{x_k}  + \max_{ i | a_{ik} > 0} \frac{b_i - \overline{b_i}}{a_{ik}}
-   \end{align}
+   
 
 .. rubric:: Phase 1 analysis
 

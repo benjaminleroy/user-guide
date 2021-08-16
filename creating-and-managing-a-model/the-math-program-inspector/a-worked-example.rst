@@ -33,8 +33,8 @@ The following notation is used to describe the symbolic farm planning
 model.
 
 .. math::
-
-   \begin{align}
+  
+   \begin{aligned}
    & \textbf{Indices:} \\
    &&& \text{$f, \hat{f}$} & & \text{farms}  \\
    &&& \text{$c$} & & \text{crops}  \\[0.5pc]
@@ -57,8 +57,9 @@ model.
    &&& \text{$m_{f\hat{f}c}$} & & \text{amount of crop $c$ moved from farm $f$ to farm $\hat{f}$} \\
    &&& \text{$g_{fc}$} & & \text{amount of land used to grow crop $c$ on farm $f$}  \\
    &&& \text{$s_{fc}$} & & \text{amount of crop $c$ sold by farm $f$} \\
-   &&& \text{$r_{f}$} & & \text{amount of extra land rented by farm $f$}  \\
-   \end{align}
+   &&& \text{$r_{f}$} & & \text{amount of extra land rented by farm $f$}
+   \end{aligned}
+   
 
 .. rubric:: Land requirement
 
