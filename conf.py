@@ -76,15 +76,31 @@ master_doc = 'index'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
+if os.name == 'nt':
+   
+   Display_edit_on_gitlab = True
+   # if builds locally (a windows machine), do not displays external extensions (Google Analytics, Community Embeddable, Algolia search, etc.)
+   Display_3rd_Party_Extensions = False
+else:
+
+   # if builds on GitLab (a Linux machine), force "Edit on Gitlab" not to be shown, and displays external extensions (Google Analytics, Community Embeddable, Algolia search, etc.)
+   Display_edit_on_gitlab = False
+   Display_3rd_Party_Extensions = True
+
+
 html_theme_options = {
 
     'doc_title' : 'User\'s Guide',
     'home_page_title': 'User\'s Guide Home',
     'home_page_description': "Creating and Managing a Model, Data management, External calls to AIMMS",
-    'display_community_embeddable' : False,
-    'generate_google_analytics' : False,
-    'display_algolia_search' : False,
+    'display_community_embeddable' : Display_3rd_Party_Extensions,
     'display_local_toc' : True,
+    'google_analytics_id': 'UA-1290545-13',
+    'generate_google_analytics' : Display_3rd_Party_Extensions,
+    'display_algolia_search' : Display_3rd_Party_Extensions,
+    'algolia_appid': 'BH4D9OD16A', 
+    'algolia_appkey': 'f7e44f5b57ababa5c5ceb1e1087ae3b1', 
+    'algolia_indexname': 'aimms',
     'display_help_and_feedback' : False,
 
 }
