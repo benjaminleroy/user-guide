@@ -60,7 +60,7 @@ full detail in :ref:`chap:view`
 
 .. warning:: 
   
-  The AIMMS WinUI and the page manager is deprecated, please refer to :doc:`deprecation-table`. 
+  The AIMMS WinUI and the page manager are deprecated, please refer to :doc:`deprecation-table`. 
   You may use the :doc:`webui/index` instead, and the :doc:`webui/page-manager`.
 
 The **Page Manager** allows you to organize all end-user windows
@@ -76,7 +76,7 @@ navigational controls such as buttons and menus.
 
 .. warning:: 
   
-  The AIMMS WinUI and the page manager is deprecated, please refer to :doc:`deprecation-table`. 
+  The AIMMS WinUI and the page manager are deprecated, please refer to :doc:`deprecation-table`. 
   You may use the :doc:`webui/index` instead.
 
 Within the **Template Manager**, you can make sure that all end-user
@@ -89,7 +89,7 @@ subsequently placing all end-user pages into the tree of page templates.
 
 .. warning:: 
   
-  The AIMMS WinUI and the page manager is deprecated, please refer to :doc:`deprecation-table`. 
+  The AIMMS WinUI and the page manager are deprecated, please refer to :doc:`deprecation-table`. 
   You may use the :doc:`webui/index` instead, and the :doc:`webui/page-menu`.
 
 With the **Menu Builder** you can create customized menu bars, pop-up
