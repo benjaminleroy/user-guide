@@ -12,3 +12,4 @@ Creating and Managing a Model
    viewing-identifier-selections/index
    debugging-and-profiling-an-aimms-model/index
    the-math-program-inspector/index
+   publishing

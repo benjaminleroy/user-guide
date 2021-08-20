@@ -46,6 +46,7 @@ if os.name != 'nt':
 intersphinx_mapping = {'fr': ('https://documentation.aimms.com/functionreference/',
                                   (None,'objects-functionreference.inv')),
                         'lr': ('https://documentation.aimms.com/language-reference/', None),
+                        'howto': ('https://how-to.aimms.com/', None),
                         'doc': ('https://documentation.aimms.com/', None),}
 html_theme = 'sphinx_aimms_theme'
 
