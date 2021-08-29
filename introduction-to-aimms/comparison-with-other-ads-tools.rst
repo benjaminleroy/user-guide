@@ -1,7 +1,7 @@
-Comparison with other ADS tools
+Comparison with other tools
 ===============================
 
-.. rubric:: ADS development tools
+.. rubric:: Development tools
 
 There are several tools available in the market that can, in principle,
 be used as a development environment for analytic decision support
@@ -24,12 +24,12 @@ replacement for these three development environments, but rather as a
 tool specifically designed for developing analytic decision support
 applications. The following paragraphs outline the advantages and
 disadvantages of each of these tools with respect to their suitability
-as a development environment for ADS.
+as a development environment.
 
 .. rubric:: Spreadsheet
 
 If you are a fervent spreadsheet user, it seems only natural to build
-your ADS applications on top of a spreadsheet. However, this may not
+your applications on top of a spreadsheet. However, this may not
 always be the best choice. A spreadsheet approach works well when:
 
 -  you don't need to specify a large number of relationships,
@@ -63,8 +63,8 @@ alternative, because:
 
 .. rubric:: Database
 
-If you are a fervent database user, it seems only natural to build your
-ADS applications using a language such as Visual-C/C++, Delphi or
+If you are a fervent database user, it seems only natural to build your 
+applications using a language such as Visual-C/C++, Delphi or
 PowerBuilder on top of a database such as Microsoft Access, and Oracle.
 However, this may not always be the best choice. Using a database
 approach works well when:
@@ -101,7 +101,7 @@ alternative, because:
 
 .. rubric:: Programming language
 
-If you are a fervent programmer, it seems only natural to build your ADS
+If you are a fervent programmer, it seems only natural to build your
 applications using languages such as ``C``/C++ or Fortran. However, this
 may not always be the best choice. Using a programming language works
 well when:
@@ -141,12 +141,12 @@ alternative, because:
 
 :ref:`table:intro.tools` summarizes the most important issues that
 determine the suitability of the above development tools as a
-development environment for ADS applications. The table focuses on
+development environment for applications. The table focuses on
 
--  the initial development effort to create an ADS application,
+-  the initial development effort to create an application,
 
 -  the subsequent time required for product maintenance (extremely
-   important due to the permanently changing nature of ADS
+   important due to the permanently changing nature of
    applications), and
 
 -  the openness of the environment with respect to data entry formats
@@ -157,10 +157,10 @@ indicates that it does not perform well in this area.
 
 .. _table:intro.tools:
 
-.. table::   Comparison of ADS development tools
+.. table::   Comparison of development tools
 
 	+----------------------+------------------+------------------+----------+----------------------------+
-	| Building tool        | Development time | Maintenance time | Openness | Suitability as an ADS tool |
+	| Building tool        | Development time | Maintenance time | Openness | Suitability as a tool      |
 	+======================+==================+==================+==========+============================+
 	| Spreadsheet          | \+               | \--              | ++       | \+                         |
 	+----------------------+------------------+------------------+----------+----------------------------+
@@ -176,7 +176,7 @@ indicates that it does not perform well in this area.
  
 In support of the comparison in :ref:`table:intro.tools`, the following
 quote, from one of our customers, clearly expresses the advantages of using
-AIMMS as a development environment for ADS applications.
+AIMMS as a development environment for applications.
 
    *"Software development requires four tasks: definition, design,*
    *implementation and testing. When using AIMMS, the focus is on*
