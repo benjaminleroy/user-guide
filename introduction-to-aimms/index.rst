@@ -6,7 +6,6 @@ AIMMS Basics
 .. toctree::
    :maxdepth: 2
 
-   comparison-with-other-ads-tools
    creating-a-new-project
    modeling-tools
    dockable-windows
