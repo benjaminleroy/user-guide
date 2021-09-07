@@ -99,6 +99,6 @@ By modifying the value of the predefined element parameter
 :any:`CurrentSolver` in the predefined :any:`AllSolvers` during run time you
 can, at any time during the execution of your model, select a nondefault
 solver for a given mathematical programming type that you want AIMMS to
-use during the next ``SOLVE`` statement for a mathematical program of
+use during the next :any:`solve <solve>` statement for a mathematical program of
 that type. At startup, AIMMS will set ``CurrentLPSolver`` to the default
 LP solver as selected in the solver configuration dialog box.

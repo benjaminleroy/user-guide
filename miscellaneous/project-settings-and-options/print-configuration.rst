@@ -9,7 +9,7 @@ AIMMS offers two distinct facilities to create printed reports
 associated with your model, namely printouts of graphical end-user pages
 and print pages, and printouts of text files
 such as a text representation of a part of the model tree or the
-listing, log and ``PUT`` files. This section explains how you can
+listing, log and :any:`put <data-communication-components/text-reports-and-output-listing/the-put-statement>` files. This section explains how you can
 configure the printing properties for both types of reports.
 
 .. rubric:: Printing end-user pages

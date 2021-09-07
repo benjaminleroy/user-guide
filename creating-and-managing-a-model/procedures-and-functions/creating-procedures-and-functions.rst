@@ -43,7 +43,7 @@ visible in the tree is configurable using the **View** menu.
 
 The attribute window of a procedure or function lets you specify or view
 aspects such as its list of arguments, the index domain of its result,
-or the actual body. The body may merely consists of a ``SOLVE``
+or the actual body. The body may merely consists of a :any:`solve <solve>`
 statement to solve an optimization model, but can also consist of a
 sequence of execution and flow control statements.
 
