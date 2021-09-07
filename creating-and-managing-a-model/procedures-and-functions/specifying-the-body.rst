@@ -7,12 +7,12 @@ In the **Body** attribute of a procedure or function you can specify the
 
 -  assignments,
 
--  execution statements such as ``SOLVE`` or ``READ``/``WRITE``,
+-  execution statements such as :any:`solve <solve>` or :any:`read <read>`/ :any:`write <write>`
 
 -  calls to other procedures or functions in your model, and
 
--  flow control statements such as ``FOR``, ``WHILE`` or
-   ``IF-THEN-ELSE``
+-  flow control statements such as :any:`for`, :any:`while` or
+   :any:`if-then-else <if>`
 
 which perform the actual task or computation for which the procedure or
 function is intended. The precise syntax of all execution statements is
@@ -34,9 +34,9 @@ collapse the statement to a single line block and the and plus button
 
 In addition, you can break down the body of a procedure or function into
 manageable pieces using one or more execution blocks. Any number of
-AIMMS statements enclosed between ``BLOCK`` and ``ENDBLOCK`` keywords
+AIMMS statements enclosed between :any:`block <block>` and :any:`endblock <endblock>` keywords
 can be graphically collapsed into a single block. The text in the single
-line comment following the ``BLOCK`` keyword is used as display text for
+line comment following the :any:`block <block>` keyword is used as display text for
 the collapsed block.
 
 An example of a procedure body containing two collapsed execution blocks
