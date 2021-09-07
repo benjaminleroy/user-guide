@@ -53,14 +53,6 @@ Whenever you save a case in your AIMMS project (see also
 on disk. By default these case files will be stored in the ``data``
 subfolder of project's main folder.
 
-.. rubric:: The user database
-
-With every end-user project created with AIMMS, you can associate an
-end-user database containing the names and passwords of all end-users
-entitled to run the project or view its results. Such end-user
-information is stored in an encrypted format in a user database file
-(with a ``.usr`` extension). You can use a single user database file
-with more than one project.
 
 .. rubric:: Log, error and listing files
 
@@ -108,6 +100,11 @@ application back to the state stored in the data backup files.
 
 Project User Files
 ~~~~~~~~~~~~~~~~~~
+
+.. warning:: 
+  
+  The AIMMS WinUI and Project User Files are deprecated, please refer to :doc:`deprecation-table`. 
+  You may use the :doc:`webui/index` instead, the :doc:`pro/user-man` and :doc:`Articles/120/120-pro-user-groups`
 
 .. rubric:: Project user files
 
