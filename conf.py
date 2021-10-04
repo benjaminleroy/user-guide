@@ -92,7 +92,7 @@ else:
 html_theme_options = {
 
     'doc_title' : 'User\'s Guide',
-    'home_page_title': 'User\'s Guide Home',
+    'home_page_title': 'AIMMS User\'s Guide',
     'home_page_description': "Creating and Managing a Model, Data management, External calls to AIMMS",
     'display_community_embeddable' : Display_3rd_Party_Extensions,
     'display_local_toc' : True,
