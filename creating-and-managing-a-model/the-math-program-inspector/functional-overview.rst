@@ -20,6 +20,14 @@ learn
 -  which analysis you can perform using the mathematical program
    inspector when your mathematical program is infeasible.
 
+.. rubric:: Getting started
+
+You can find the mathematical program inspector at the following path:
+
+      *Tools > Diagnostic Tools > Mathematical Program Inspector ... *
+
+
+
 Tree View Basics
 ~~~~~~~~~~~~~~~~
 
